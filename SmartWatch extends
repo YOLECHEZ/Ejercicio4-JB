@@ -1,0 +1,24 @@
+package com.javaBasico;
+
+public class SmartWatch extends SmartDevice  {
+
+    public String estiloCorreas;
+    public float dimensionEsfera;
+
+
+    public SmartWatch() {
+    }
+
+    public SmartWatch(String estiloCorreas, float dimensionEsfera) {
+        this.estiloCorreas = estiloCorreas;
+        this.dimensionEsfera = dimensionEsfera;
+    }
+
+    public SmartWatch(String fabricante, String modelo, String sistema, int almacenamiento, boolean cincoG, double bateria, String estiloCorreas, float dimensionEsfera) {
+        super(fabricante, modelo, sistema, almacenamiento, cincoG, bateria);
+        this.estiloCorreas = estiloCorreas;
+        this.dimensionEsfera = dimensionEsfera;
+    }
+
+
+}

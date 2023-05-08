@@ -1,0 +1,34 @@
+package com.javaBasico;
+
+public class SmartDevice {
+
+    public String fabricante;
+    public String modelo;
+    public String sistema;
+    public int almacenamiento;
+    public boolean cincoG;
+
+    public double bateria;
+
+    public int numero;
+
+
+    public SmartDevice() {
+
+    }
+
+    public SmartDevice(String fabricante, String modelo, String sistema, int almacenamiento, boolean cincoG, double bateria) {
+        this.fabricante = fabricante;
+        this.modelo = modelo;
+        this.sistema = sistema;
+        this.almacenamiento = almacenamiento;
+        this.cincoG = cincoG;
+        this.bateria = bateria;
+    }
+
+
+    public void numCamaras(int quantity) {
+
+        this.numero += quantity;
+    }
+}

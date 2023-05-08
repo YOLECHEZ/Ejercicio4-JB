@@ -1,0 +1,18 @@
+package com.javaBasico;
+
+public class SmartPhone extends SmartDevice {
+
+    int numCamaras;
+
+
+    public SmartPhone() {
+    }
+
+    public SmartPhone(String fabricante, String modelo, String sistema, int almacenamiento, boolean cincoG, double bateria) {
+        super(fabricante, modelo, sistema, almacenamiento , cincoG, bateria);
+    }
+
+
+
+}
+
